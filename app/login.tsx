@@ -5,7 +5,6 @@ import { useBiometric } from "@/hooks/useBiometric";
 import { LoginInterface } from "@/interface/login";
 import { useAccountStore } from "@/store/account";
 import { useAuthStore } from "@/store/auth";
-import { useTransactionStore } from "@/store/transaction";
 import { router } from "expo-router";
 import { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
